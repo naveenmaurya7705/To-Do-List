@@ -14,7 +14,6 @@ const addTodo = () => {
         // Passing the original text to editLocalTodos function before edit it in the todoList
         editLocalTodos(editTodo.target.previousElementSibling.innerHTML);
         editTodo.target.previousElementSibling.innerHTML = inputText;
-        // editLocalTodos(inputText);
         addBtn.value = "Add";
         inputBox.value = "";
     }
@@ -117,6 +116,5 @@ const editLocalTodos = (todo) => {
 
 document.addEventListener('DOMContentLoaded', getLocalTodos);
 addBtn.addEventListener('click', addTodo);
-// todoList.addEventListener('click', updateTodo);
 todoList.addEventListener('click', updateTodo);
 0
