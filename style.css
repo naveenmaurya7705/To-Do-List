@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+body{
+    background-color: rgba(166, 165, 165, 0.497);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding:20px;
+}
+
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-block: 12px;
+}
+
+.input-container input[type="text"]{
+    width:70%;
+}
+
+.input-container input[type="button"]{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+.input-container input[type="button"]:hover{
+    background-color :greenyellow;
+}
+
+ul{
+    width:70%;
+    max-width: 450px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+
+
+}
+
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-block-end:12px;
+    border-radius: 8px;
+    border: .234px solid #a19f9f;
+    background-color: white;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li:hover{
+    background-color: #a19f9f;
+}
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+
+}
+
+.btn{
+   border: none;
+   outline: none;
+   font-size: 16px;
+   background-color: none;
+   font-weight: bold;
+   cursor: pointer;
+   padding:8px;
+}
+    
+.deleteBTn{
+  color: #ff0000;
+}
+
+.editBtn{
+    color: #008000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
